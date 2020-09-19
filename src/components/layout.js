@@ -36,14 +36,15 @@ const Layout = ({ children }) => {
     <>
       <ThemeProvider theme={mode ? primaryTheme : secondaryTheme}>
         <GlobalStyle />
-        <Header siteTitle={data.site.siteMetadata.title} themeMode={handleMode} />
+        <Header siteTitle={data.site.siteMetadata.title} themeMode={handleMode} mode={mode}/>
 
         <Container>{children}</Container>
 
         <Footer>
           <p>
             © {new Date().getFullYear()}, Built by{" "}
-            <a href="https://www.gatsbyjs.org">Artticfox</a>
+            <a href="https://artticfox.com" target="_blank"
+                rel="noreferrer">Artticfox</a>
           </p>
         </Footer>
       </ThemeProvider>
@@ -59,6 +60,8 @@ const Container = styled.main`
   display: grid;
   padding: ${({ theme }) => theme.pagePadding};
   justify-content:center;
+  transition: all .55s ease-in-out;
+  background-color: ${({ theme }) => theme.color.bg};
 `
 
 const Footer = styled.footer`
@@ -69,9 +72,12 @@ const Footer = styled.footer`
   justify-content: end;
   padding: 16px 32px;
   grid-auto-flow: column;
+  transition: all .55s ease-in-out;
+  margin-top: 32px;
   p {
     margin-bottom: 0;
     font-weight: 700;
+    color: ${({ theme }) => theme.color.lightGrey};
   }
   a{
     color: ${({ theme }) => theme.color.positive};

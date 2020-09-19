@@ -59,8 +59,10 @@ const logo = props => {
 
 const Container = styled.svg`
   fill: ${({ theme }) => theme.color.negative};
+  transition: all .55s ease-in-out;
   path{
     fill: ${({ theme }) => theme.color.negative};
+    transition: all .55s ease-in-out;
   }
 `
 

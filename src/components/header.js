@@ -3,19 +3,7 @@ import styled from "styled-components"
 import React from "react"
 import Logo from "../assets/logo.js"
 
-import { withStyles } from "@material-ui/core/styles"
-
-import * as Scroll from "react-scroll"
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll"
-import FormControlLabel from "@material-ui/core/FormControlLabel"
-import Switch from "@material-ui/core/Switch"
+import { Link, animateScroll as scroll } from "react-scroll"
 
 const Header = ({ siteTitle, themeMode, mode }) => {
   return (
@@ -94,9 +82,9 @@ const Button = styled.button`
 
 const ButtonSimple = styled.button`
   color: ${({ theme }) => theme.color.negative};
-  border:none;
+  border: none;
   box-shadow: none;
-  background-color:transparent;
+  background-color: transparent;
 `
 
 export default Header

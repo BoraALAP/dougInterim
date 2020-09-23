@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import { useStaticQuery, graphql } from "gatsby"
@@ -30,62 +29,29 @@ const IndexPage = () => {
         <SEO title="Pre-Order Now" />
 
         <H2>
-          First and foremost, thank you for visiting my website, I am truly
-          grateful.
+        First and foremost, thank you for visiting my website, I am truly grateful. 
         </H2>
 
         <Description>
-          As the landscape of the world has changed in recent times, so has the
-          demand and needs of humankind. Of course I am still a Vegan Chef, but
-          I want to submerse you digitally into my world and create some amazing
-          content for all of you, in addition to my consulting and other
-          projects of course.{" "}
+        I am currently creating a brand new digital experience and new website, which will launch in early November.  Until then please check out my new podcast here, and follow me on social media here to keep up to date. For any business requests please feel free to reach out to me here.  Until then, I hope you enjoy my new book and all I have to offer over on my social channels.
+        </Description>
+
+        <H3>MY NEW BOOK, THE CLASSICS VEGANIZED IS NOW AVAILABLE! </H3>
+
+        <Description>
+        This book has been a long time coming, and is truly a labor of love and all things VEGAN. I am so full of gratitude and love to be able to finally share it with you all.
         </Description>
 
         <Description>
-          I am currently creating a brand new digital experience and new
-          website, which will launch in early November. Until then please check
-          out my new podcast here, and follow me on social media here to keep up
-          to date.
+        This new book is packed with some of my favourite recipes and “go to” dishes such as Boneless Wings and Calamari, to my signature NY striploin Steak and a brand new recipe for Hickory Smoked Rack of Ribs.
         </Description>
 
         <Description>
-          For any business requests please feel free to reach out to me here.
-          Until then, I hope you enjoy my new book and all I have to offer over
-          on my social channels.
-        </Description>
-
-        <H3>MY NEW BOOK, THE CLASSICS VEGANIZED IS NOW AVAILABLE!</H3>
-
-        <Description>
-          This book has been a long time coming, and is truly a labor of love
-          and all things VEGAN. I am so full of gratitude and love to be able to
-          finally share it with you all.
+        Please click here to pre-order, or head to my social media pages and find the best link for your region in the world!
         </Description>
 
         <Description>
-          This new book is packed with some of my favourite recipes and “go to”
-          dishes such as Boneless Wings and Calamari, to my signature NY
-          striploin Steak and a brand new recipe for Hickory Smoked Rack of
-          Ribs! Yes, that's right, Vegan Rack of Ribs!
-        </Description>
-
-        <Description>
-          My career began more than 20 years ago, and this book is a culmination
-          of so many years of hard work and dedication to my art and my passion
-          for veganism.
-        </Description>
-
-        <Description>
-          Please click here to pre-order, or head to my social media pages and
-          find the best link for your region in the world!
-        </Description>
-
-        <Description>
-          Thank you everyone for the support, and thank you to each and everyone
-          of you who has supported me over the years, it means more than you can
-          imagine. Without the support of people daily, I would not be able to
-          do what I do, so thank you from the bottom of my heart.
+        Thank you everyone for the support, and thank you to each and everyone of you who has supported me over the years, it means more than you can imagine. 
         </Description>
 
         <Description>

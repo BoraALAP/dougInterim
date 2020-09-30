@@ -26,7 +26,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Container>
-        <SEO title="Pre-Order Now" />
+        <SEO title="Order Now" />
 
         <H2>
         First and foremost, thank you for visiting my website, I am truly grateful. 

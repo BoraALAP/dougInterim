@@ -15,7 +15,7 @@ const Header = ({ siteTitle, themeMode, mode }) => {
       </H1>
 
       <LinkS to="list" spy={true} smooth={true} duration={500} offset={-200}>
-        <Button>Pre-Order Now</Button>
+        <Button>Buy Now</Button>
       </LinkS>
 
       <ButtonSimple checked={mode} onClick={themeMode}>

@@ -3,9 +3,12 @@ import React from "react"
 import Layout from "../components/layout"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Link, animateScroll as scroll } from "react-scroll"
+import styled from "styled-components"
+
 import SEO from "../components/seo"
 
-import styled from "styled-components"
+
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -47,7 +50,7 @@ const IndexPage = () => {
         </Description>
 
         <Description>
-        Please click here to order your copy, or head to my social media pages and find the best link for your region in the world!
+        Please <LinkS to="list" spy={true} smooth={true} duration={500} offset={-200}>click here</LinkS> to order your copy, or head to my social media pages and find the best link for your region in the world!
         </Description>
 
         <Description>
@@ -184,6 +187,7 @@ const IndexPage = () => {
             </Buttons>
           </PurchaseBox>
         </List>
+        <Email>For your business enquiries please email at <a href="mailto:chef@dougmcnish.com">chef@dougmcnish.com</a></Email>
       </Container>
     </Layout>
   )
@@ -200,6 +204,21 @@ const ImgContainer = styled(Img)`
   width: 60%;
   margin: 56px auto;
 `
+
+const LinkS = styled(Link)`
+text-decoration: underline;
+`
+
+const Email = styled.div`
+  display: grid;
+  padding: 2em 3em;
+  background-color: ${({ theme }) => theme.color.lightGrey};
+  margin-top: 3em;
+  text-align:center;
+  justify-content:center;
+  width: 100%;
+`
+
 const H2 = styled.h2`
   max-width: 600px;
   font-size: 1.25em;

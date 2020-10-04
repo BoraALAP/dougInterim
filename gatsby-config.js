@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Doug McNish Book Page`,
     description: `Welcome to the Doug Mcnish's website. Currently, it is under development. However, here is the page for you to purchase it.`,
-    author: `@gatsbyjs`,
+    author: `Arttic Fox`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
